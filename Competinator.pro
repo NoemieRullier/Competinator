@@ -8,14 +8,18 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = competinator
+TARGET = Competinator
 TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        UI/mainwindow.cpp\
+        UI/mainwindow.cpp
 
 HEADERS += UI/mainwindow.h
 
 FORMS += UI/mainwindow.ui
 
+RESOURCES += \
+    Resources.qrc
+
+ ICON = pictures/Competinator.icns
