@@ -13,13 +13,17 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        UI/mainwindow.cpp
+        UI/mainwindow.cpp \
+    model/usamember.cpp \
+    model/usastatus.cpp
 
-HEADERS += UI/mainwindow.h
+HEADERS += UI/mainwindow.h \
+    model/usamember.h \
+    model/usastatus.h
 
 FORMS += UI/mainwindow.ui
 
 RESOURCES += \
     Resources.qrc
 
- ICON = pictures/Competinator.icns
+ICON = pictures/Competinator.icns
